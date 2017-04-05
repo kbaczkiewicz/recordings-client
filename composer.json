@@ -1,0 +1,17 @@
+{
+    "name": "k-batch/recordings-client",
+    "authors": [
+        {
+            "name": "Kamil Bączkiewicz",
+            "email": "kbaczkiewitz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KBatch\\RecordingsRestClient\\": "src/RecordingsRestClient"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    }
+}
